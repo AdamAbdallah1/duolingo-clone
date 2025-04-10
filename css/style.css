@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+}
+
+.header-container {
+    width: 100%;
+    background-color: white;
+    padding: 7px;
+    margin: 0 auto;
+}
