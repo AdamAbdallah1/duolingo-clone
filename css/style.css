@@ -14,3 +14,11 @@
     align-items: center;
 }
 
+.header {
+    padding: inherit;
+}
+
+.header-img {
+    width: 140px;
+    padding-left: 220px;
+}
