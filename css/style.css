@@ -30,3 +30,13 @@
     padding-right: 230px;
     font-weight: 800;
 }
+
+.get-started-container {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+}
+
