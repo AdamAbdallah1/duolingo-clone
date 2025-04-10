@@ -67,3 +67,14 @@
     cursor: pointer;
     font-weight: 800;
 }
+
+.start-btn:active {
+    box-shadow: none;
+    transform: translate(0, 4px);
+}
+
+.start-btn-1 {
+    background-color: #58CC02;
+    color: white;
+    box-shadow: 0 4px 0 #58CC02;
+}
