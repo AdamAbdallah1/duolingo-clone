@@ -55,6 +55,22 @@
     font-weight: 800;
 }
 
+.language-selector {
+    margin-right: 20px;
+}
+
+#language-select {
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    border: none;
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+}
+
+
 .get-started-container {
     padding-top: 220px;
     display: flex;
