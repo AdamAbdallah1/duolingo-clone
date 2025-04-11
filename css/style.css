@@ -131,10 +131,13 @@
 
 .about-container {
     padding-top: 100px;
+    padding-right: 200px;
     display: flex;
     flex-direction: column;
+    align-items: end;
     font-family: 'Nunito', sans-serif, bold;
     font-weight: 800;
+    text-align: left;
 }
 
 .about-item-1 {
@@ -142,6 +145,7 @@
     font-size: 48px;
     padding-top: 50px;
     font-weight: 800;
+    padding-right: 65px;
 }
 
 .about-item-2 {
