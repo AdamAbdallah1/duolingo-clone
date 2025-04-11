@@ -200,59 +200,80 @@
 }
 
 .about-img {
-    width: 300px; /* Adjust as needed */
+    width: 300px;
     height: auto;
 }
-.test-container{
+.test-container {
     display: flex;
-    flex-direction: column;
-    justify-content: right;
-    align-items: flex-start;
-    padding-top: 150px;
-    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
 }
 
-.test-item {
-    font-family: 'Nunito', sans-serif, bold;
+.test-content {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    width: 100%;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.test-img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.test-text {
     font-weight: 800;
-    padding-left: 100px;
+    flex: 1;
+    min-width: 280px;
+    color: #58cc02;
+}
+
+.test-text h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #58cc02;
+    font-family: 'Nunito', sans-serif;
 }
 
 .test-item-1 {
-    color: #5BCD06;
-    font-size: 48px;
+    color: #58cc02;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .test-item-2 {
-    color: gray;
-    text-align: left;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #888888;
+    font-family: 'Nunito', sans-serif;
+
 }
 
-.test-btn{
-    color: #199EDD;
-    margin: 7px;
-    height: 50px;
-    border-radius: 12px;
-    width: 330px;
-    font-family: 'Nunito', sans-serif, bold;
-    font-size: 15px;
-    border:4 solid gray;
+.test-btn {
+    background-color: #58cc02;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
     cursor: pointer;
-    font-weight: 800;
-    margin-right: 150px;
-    background-color: white;
-    margin-bottom: 50px;
-    margin-left: 100px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
 }
 
-.test-btn:hover{
-    background-color: rgb(219, 218, 218);
+.test-btn:hover {
+    background-color: #46a101;
 }
 
-.test-btn button{
-    margin-left: 200px;
 
-}
 
 footer {
     padding: 10px;
