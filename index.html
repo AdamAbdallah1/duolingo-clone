@@ -11,7 +11,14 @@
     <header class="header-container">
         <img class="header header-img" src="assets/logo.png" alt="Duolingo Logo">
         <div class="header header-text">
-            <p class="language-text">SITE LANGAUE: ENGLISH</p>
+            <p class="language-text"><div class="language-selector">
+                <select id="language-select" onchange="changeLanguage()">
+                    <option value="en">SITE LANGUAGE: ENGLISH</option>
+                    <option value="fr">Français</option>
+                    <option value="ar">العربية</option>
+                </select>
+            </div>
+            </p>
         </div>
     </header>
     <main>
