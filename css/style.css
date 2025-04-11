@@ -163,14 +163,15 @@
 .test-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: flex-start;
     padding-top: 150px;
 }
 
 .test-item {
     font-family: 'Nunito', sans-serif, bold;
     font-weight: 800;
+    padding-left: 100px;
 }
 
 .test-item-1 {
@@ -197,6 +198,7 @@
     margin-right: 150px;
     background-color: white;
     margin-bottom: 50px;
+    margin-left: 100px;
 }
 
 .test-btn:hover{
