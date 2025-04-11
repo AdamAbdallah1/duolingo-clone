@@ -90,10 +90,10 @@
     font-family: 'Nunito', sans-serif;
     text-align: center;
     font-weight: 900;
-    text-align: left;
 }
 
 .get-started-container-btn {
+    margin-left: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,39 +155,54 @@
     display: flex;
     justify-content: flex-start;
 }
-
 .about-container {
     padding-top: 100px;
-    padding-right: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 100px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 50px;
+}
+
+.about-text {
     display: flex;
     flex-direction: column;
-    align-items: end;
-    font-family: 'Nunito', sans-serif, bold;
-    font-weight: 800;
-    text-align: left;
-    margin-top: 100px;
+    max-width: 600px;
 }
 
 .about-item-1 {
     color: #5BCD06;
     font-size: 48px;
-    padding-top: 50px;
     font-weight: 800;
-    padding-right: 65px;
+    margin-bottom: 20px;
 }
 
 .about-item-2 {
     color: gray;
-    
+    font-size: 18px;
 }
 
-.about-item-2 a{
+.about-item-2 a {
     color: #19a0df;
     text-decoration: none;
-    font-size: large;
-    padding-bottom: 150px;
+    font-size: inherit;
 }
 
+.about-img {
+    width: 300px; /* Adjust as needed */
+    height: auto;
+}
 .test-container{
     display: flex;
     flex-direction: column;
