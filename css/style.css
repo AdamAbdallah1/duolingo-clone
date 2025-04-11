@@ -56,7 +56,7 @@
 }
 
 .get-started-container {
-    padding-top: 150px;
+    padding-top: 220px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,7 +110,7 @@
 }
 
 .flags-container {
-    margin-top: 100px;
+    margin-top: 200px;
     width: 100%;
     border: 1px solid rgb(214, 214, 214);
     padding-top: 20px;
@@ -138,6 +138,7 @@
     font-family: 'Nunito', sans-serif, bold;
     font-weight: 800;
     text-align: left;
+    margin-top: 100px;
 }
 
 .about-item-1 {
@@ -166,6 +167,7 @@
     justify-content: right;
     align-items: flex-start;
     padding-top: 150px;
+    margin-bottom: 100px;
 }
 
 .test-item {
