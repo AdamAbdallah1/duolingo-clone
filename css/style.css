@@ -58,10 +58,30 @@
 .get-started-container {
     padding-top: 220px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-weight: 800;
+}
+
+.get-started-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1200px;
+}
+
+.get-started-img {
+    width: 300px;
+    height: auto;
+}
+
+.get-started-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Nunito', sans-serif, bold;
 }
 
 .get-started-container-item-1 {
@@ -70,6 +90,7 @@
     font-family: 'Nunito', sans-serif;
     text-align: center;
     font-weight: 900;
+    text-align: left;
 }
 
 .get-started-container-btn {
@@ -78,6 +99,7 @@
     justify-content: center;
     align-items: center;
     font-family: 'Nunito', sans-serif;
+    gap: 10px;
 }
 
 .start-btn {
@@ -127,6 +149,11 @@
 .flag-text {
     justify-content: center;
     align-items: center;
+}
+
+.about-img {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .about-container {
