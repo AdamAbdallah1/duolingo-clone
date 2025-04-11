@@ -1,7 +1,3 @@
-Here’s a shorter description for your **README.md**:
-
----
-
 # Duolingo Clone
 
 A simple web application replicating the Duolingo platform's core features. This clone showcases a responsive design with sections like getting started, Duolingo English Test, and more, built with HTML and CSS.
