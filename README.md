@@ -26,7 +26,3 @@ A simple web application replicating the Duolingo platform's core features. This
 ## License
 
 MIT License
-
----
-
-This gives a concise summary and focuses on key points!
