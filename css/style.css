@@ -3,6 +3,9 @@
 }
 
 .header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     background-color: white;
     padding: 7px;
@@ -12,6 +15,27 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    z-index: 1000; /* Make sure it stays on top */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for better separation */
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .header-img {
+        width: 150px;
+    }
+
+    .header-text {
+        font-size: 14px;
+        text-align: center;
+    }
 }
 
 .header {
@@ -61,7 +85,7 @@
     height: 50px;
     border-radius: 12px;
     width: 330px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif, bold;
     font-size: 15px;
     border: none !important;
     cursor: pointer;
@@ -71,17 +95,18 @@
 .start-btn:active {
     box-shadow: none;
     transform: translate(0, 4px);
-}
+  }
 
 .start-btn-1 {
     background-color: #58CC02;
     color: white;
-    box-shadow: 0 4px 0 #58CC02;
+    box-shadow: 0 4px 0 #58a700;
 }
 
-.start-bt2 {
+
+.start-btn-2 {
     color: #199EDD;
-    box-shadow: 0 4px 0 white;
+    box-shadow: 0 4px 0 #d6d6d6;
 }
 
 .about-container {
@@ -90,7 +115,6 @@
     flex-direction: column;
     font-family: 'Nunito', sans-serif, bold;
     font-weight: 800;
-    margin-left: 100px;
 }
 
 .about-item-1 {
@@ -98,14 +122,21 @@
     font-size: 48px;
     padding-top: 50px;
     font-weight: 800;
-
 }
 
 .about-item-2 {
     color: gray;
+    
 }
 
-.test-container {
+.about-item-2 a{
+    color: #19a0df;
+    text-decoration: none;
+    font-size: large;
+    padding-bottom: 150px;
+}
+
+.test-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,7 +144,7 @@
     padding-top: 150px;
 }
 
-.item-item {
+.test-item {
     font-family: 'Nunito', sans-serif, bold;
     font-weight: 800;
 }
@@ -123,7 +154,7 @@
     font-size: 48px;
 }
 
-test-item-2 {
+.test-item-2 {
     color: gray;
     text-align: left;
 }
