@@ -152,3 +152,35 @@ test-item-2 {
     margin-left: 200px;
 
 }
+
+footer {
+    padding: 10px;
+    background-color: #58CC02;
+    margin: 0;
+    color: white;
+}
+
+.footer-main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px;
+    gap: 5px;
+    font-family: 'Nunito', sans-serif, bold;
+    padding-top: 50px;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.footer-container-item {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif, bold;
+    gap: 10px;
+}
+
+.footer-color {
+    color: rgb(224, 224, 224);
+}
