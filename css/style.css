@@ -109,6 +109,26 @@
     box-shadow: 0 4px 0 #d6d6d6;
 }
 
+.flags-container {
+    margin-top: 100px;
+    width: 100%;
+    border: 1px solid rgb(214, 214, 214);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.flags {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flag-text {
+    justify-content: center;
+    align-items: center;
+}
+
 .about-container {
     padding-top: 100px;
     display: flex;
